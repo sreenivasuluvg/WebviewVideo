@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/webView"
+
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/txtError"
+        android:visibility="gone"
+        android:text="This is the demo of WebView Client"
+        android:textSize="20sp"
+        android:gravity="center_horizontal">
+    </TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/load_tv"
+        android:visibility="gone"
+        android:text="This is the demo of WebView Client"
+        android:textSize="20sp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+
+        android:id="@+id/progressBar1"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imagesrc"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"/>
+    <FrameLayout
+        android:id="@+id/customViewContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        />
+</LinearLayout>
